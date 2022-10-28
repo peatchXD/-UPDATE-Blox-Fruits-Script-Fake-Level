@@ -11,7 +11,7 @@ Section:NewButton("อนิเมชั่น", "NONAME HUB", function() loadst
 
 local Section = Tab:NewSection("Rejoin")
 
-Section:NewButton("Rejoin Map", "ออกเข้าใหม่", function() loadstring(game:HttpGet("https://raw.githubusercontent.com/peatchXD/blox-fruit-fake-level-/main/Rejoin%20Game.lua"))() end)
+Section:NewButton("เข้าออกเข้าใหม่", "ออกเข้าใหม่", function() loadstring(game:HttpGet("https://raw.githubusercontent.com/peatchXD/blox-fruit-fake-level-/main/Rejoin%20Game.lua"))() end)
 
 local Tab = Window:NewTab("credit") local Section = Tab:NewSection("By: peatchXD") local Section = Tab:NewSection(" ")
 
