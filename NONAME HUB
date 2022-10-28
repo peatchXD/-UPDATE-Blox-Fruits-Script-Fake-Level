@@ -6,7 +6,7 @@ Section:NewButton("กดตรงนี้", "NONAME HUB", function() loadstrin
 
 local Section = Tab:NewSection("Fake v4")
 
-Section:NewButton("แปลงร่าง", "NONAME HUB", function() loadstring(game:HttpGet("https://raw.githubusercontent.com/peatchXD/Fake-level/mg(game:HttpGet"))() end) Section:NewButton("อนิเมชั่น", "Tara Hub", function() loadstring(game:HttpGet("https://raw.githubusercontent.com/peatchXD/Fake-level/main/V4x2?token=GHSAT0AAAAAABUNEYVWGWEOEIV2PKQSUHYOY23PL3A"))() end)
+Section:NewButton("แปลงร่าง", "NONAME HUB", function() loadstring(game:HttpGet("https://raw.githubusercontent.com/peatchXD/Fake-level/main/V4?token=GHSAT0AAAAAABUNEYVW65GAH5YDXCOVTD3GY23PROQ"))() end) Section:NewButton("อนิเมชั่น", "Tara Hub", function() loadstring(game:HttpGet("https://raw.githubusercontent.com/peatchXD/Fake-level/main/V4x2?token=GHSAT0AAAAAABUNEYVWGWEOEIV2PKQSUHYOY23PL3A"))() end)
 
 local Tab = Window:NewTab("credit") local Section = Tab:NewSection("By: peatchXD") local Section = Tab:NewSection(" ")
 
