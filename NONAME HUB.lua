@@ -9,9 +9,11 @@ local Section = Tab:NewSection("Fake v4")
 Section:NewButton("แปลงร่าง", "NONAME HUB", function() loadstring(game:HttpGet("https://raw.githubusercontent.com/peatchXD/blox-fruit-fake-level-/main/V4x2"))() end) 
 Section:NewButton("อนิเมชั่น", "NONAME HUB", function() loadstring(game:HttpGet("https://raw.githubusercontent.com/peatchXD/blox-fruit-fake-level-/main/V4"))() end)
 
-local Section = Tab:NewSection("Rejoin")
+local Section = Tab:NewSection("Game")
 
 Section:NewButton("เข้าออกเข้าใหม่", "ออกเข้าใหม่", function() loadstring(game:HttpGet("https://raw.githubusercontent.com/peatchXD/blox-fruit-fake-level-/main/Rejoin%20Game.lua"))() end)
+
+Secrtion:NewButton("Remove Fog", " ", function() localstring(game:HttpGet("https://raw.githubusercontent.com/peatchXD/-UPDATE-Blox-Fruits-Script-Fake-Level/main/Remove%20Fog.lua"))() end)
 
 local Tab = Window:NewTab("credit") local Section = Tab:NewSection("By: peatchXD") local Section = Tab:NewSection(" ")
 
